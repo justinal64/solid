@@ -1,0 +1,19 @@
+import React from "react";
+import { MoviesList } from "./MovieList";
+
+// This component is responsible for the following
+// Data fetching — It gets the state from the store
+// Business logic — It’s tied to the business logic of the application (the logic on how to get movies)
+
+function Movies() {
+  // const state = store.getState(); // Should this happen inside another function?
+
+  return (
+    <div>
+      <div className="movie-header">Movies App</div>
+      {/* <MoviesList movies={state.movies} /> */}
+    </div>
+  );
+}
+
+export { Movies };
