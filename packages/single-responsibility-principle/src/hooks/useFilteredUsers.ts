@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { FilteredUser, User } from "../types";
 
 function useFilteredUsers(users: User[]) {
-  // function useFilteredUsers(users: User[]) {
   const [filteredUsers, setFilteredUsers] = useState<Array<FilteredUser>>([]);
 
   useEffect(() => {
